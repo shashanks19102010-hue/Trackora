@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">ORI AI tracking companion</title>
+  <desc id="desc">Futuristic cute robot mascot with reaction cards and tracking dashboard panels.</desc>
+  <defs>
+    <radialGradient id="space" cx="45%" cy="35%" r="75%"><stop offset="0" stop-color="#0f2a65"/><stop offset=".55" stop-color="#08142f"/><stop offset="1" stop-color="#020617"/></radialGradient>
+    <linearGradient id="neon" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#60a5fa"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="900" rx="48" fill="url(#space)"/>
+  <g fill="#38bdf8" opacity=".65"><circle cx="94" cy="92" r="2"/><circle cx="226" cy="156" r="3"/><circle cx="1040" cy="122" r="2"/><circle cx="1120" cy="350" r="3"/><circle cx="742" cy="720" r="2"/></g>
+  <text x="64" y="112" font-family="Inter,Arial,sans-serif" font-size="76" font-weight="900" fill="url(#neon)">ORI</text>
+  <text x="68" y="153" font-family="Inter,Arial,sans-serif" font-size="24" fill="#e0f2fe">Your AI Tracking Companion</text>
+  <g filter="url(#glow)">
+    <ellipse cx="340" cy="678" rx="170" ry="38" fill="none" stroke="#38bdf8" stroke-width="5" opacity=".75"/>
+    <rect x="205" y="245" width="270" height="210" rx="88" fill="#e5eefb"/>
+    <rect x="242" y="292" width="196" height="108" rx="48" fill="#020617"/>
+    <circle cx="293" cy="346" r="13" fill="#22d3ee"/><circle cx="388" cy="346" r="13" fill="#22d3ee"/>
+    <path d="M307 378q34 30 68 0" fill="none" stroke="#22d3ee" stroke-width="10" stroke-linecap="round"/>
+    <rect x="255" y="452" width="172" height="180" rx="72" fill="#f8fafc"/>
+    <rect x="296" y="488" width="88" height="88" rx="36" fill="#020617"/>
+    <path d="M340 510c28 0 44 18 44 38 0 34-44 55-44 55s-44-21-44-55c0-20 16-38 44-38Z" fill="url(#neon)"/>
+    <rect x="178" y="320" width="48" height="92" rx="24" fill="#60a5fa"/><rect x="454" y="320" width="48" height="92" rx="24" fill="#60a5fa"/>
+    <path d="M253 455c-74 5-92-58-71-96" stroke="#e5eefb" stroke-width="36" stroke-linecap="round" fill="none"/>
+    <circle cx="178" cy="347" r="28" fill="#020617"/>
+    <line x1="340" y1="245" x2="340" y2="190" stroke="#93c5fd" stroke-width="8" stroke-linecap="round"/><circle cx="340" cy="177" r="18" fill="#67e8f9"/>
+  </g>
+  <g font-family="Inter,Arial,sans-serif">
+    <text x="640" y="92" font-size="28" font-weight="800" fill="#f8fafc">ORI REACTS TO EVERY SITUATION</text>
+    <g fill="none" stroke="#1e3a8a" opacity=".9"><rect x="560" y="120" width="560" height="250" rx="24"/><rect x="560" y="410" width="560" height="250" rx="24"/></g>
+    <g fill="#e0f2fe" font-size="18" text-anchor="middle">
+      <text x="645" y="182" fill="#67e8f9" font-weight="800">HAPPY</text><text x="645" y="310">Everything is perfect!</text>
+      <text x="785" y="182" fill="#67e8f9" font-weight="800">TRACKING</text><text x="785" y="310">Live tracking active.</text>
+      <text x="925" y="182" fill="#fb7185" font-weight="800">ALERT</text><text x="925" y="310">Needs attention.</text>
+      <text x="1060" y="182" fill="#34d399" font-weight="800">SUCCESS</text><text x="1060" y="310">Task completed.</text>
+      <text x="645" y="472" fill="#67e8f9" font-weight="800">PHONE OTP</text><text x="645" y="600">Secure login.</text>
+      <text x="785" y="472" fill="#facc15" font-weight="800">GEOFENCE</text><text x="785" y="600">Safe-zone alert.</text>
+      <text x="925" y="472" fill="#34d399" font-weight="800">ROUTE</text><text x="925" y="600">Trip summary.</text>
+      <text x="1060" y="472" fill="#a78bfa" font-weight="800">OFFLINE</text><text x="1060" y="600">Retrying signal.</text>
+    </g>
+    <g fill="url(#neon)" opacity=".9">
+      <circle cx="645" cy="240" r="38"/><circle cx="785" cy="240" r="38"/><circle cx="925" cy="240" r="38"/><circle cx="1060" cy="240" r="38"/>
+      <circle cx="645" cy="530" r="38"/><circle cx="785" cy="530" r="38"/><circle cx="925" cy="530" r="38"/><circle cx="1060" cy="530" r="38"/>
+    </g>
+  </g>
+  <g transform="translate(70 755)" font-family="Inter,Arial,sans-serif">
+    <rect width="1060" height="92" rx="24" fill="#020617" stroke="#1e3a8a"/>
+    <text x="36" y="38" font-size="20" font-weight="800" fill="#f8fafc">KEY TRAITS OF ORI</text>
+    <text x="36" y="68" font-size="17" fill="#cbd5e1">Friendly • Smart • Emotional • Protective • Futuristic • Consent-first</text>
+  </g>
+</svg>
