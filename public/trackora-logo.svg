@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">TRACKORA logo</title>
+  <desc id="desc">Neon location pin with paper plane over dark aurora background.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="70%"><stop offset="0" stop-color="#0f2a65"/><stop offset="1" stop-color="#020617"/></radialGradient>
+    <linearGradient id="pin" x1="90" x2="420" y1="70" y2="430"><stop stop-color="#22d3ee"/><stop offset=".55" stop-color="#3b82f6"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="512" height="512" rx="72" fill="url(#bg)"/>
+  <g opacity=".35" fill="none" stroke="#38bdf8" stroke-width="4"><ellipse cx="256" cy="364" rx="150" ry="36"/><ellipse cx="256" cy="364" rx="96" ry="22"/></g>
+  <path filter="url(#glow)" fill="url(#pin)" d="M256 56c-82 0-148 64-148 143 0 113 148 251 148 251s148-138 148-251c0-79-66-143-148-143Zm0 215a72 72 0 1 1 0-144 72 72 0 0 1 0 144Z"/>
+  <circle cx="256" cy="199" r="72" fill="#020617" opacity=".95"/>
+  <path fill="#fff" d="m184 194 157-72-67 159-25-67-65-20Z"/>
+  <path fill="#bfdbfe" d="m249 214 92-92-67 159-25-67Z" opacity=".88"/>
+  <text x="256" y="486" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" letter-spacing="8" fill="#f8fafc">TRACKORA</text>
+</svg>
